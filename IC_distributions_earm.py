@@ -3,7 +3,7 @@ import math
 import numpy as np
 import pickle
 from numpy.random import lognormal
-from earm2_flat import model
+from models.earm2_flat import model
 from tropical.dynamic_signatures_range import run_tropical_multi
 from pysb.simulator.scipyode import ScipyOdeSimulator
 

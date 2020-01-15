@@ -40,3 +40,4 @@ all_pars = np.append(unlog_pars, initials_to_add, 1)
 tspan = np.linspace(0, 20000, 1111)
 
 sim = ScipyOdeSimulator(model, tspan).run(param_values=all_pars, num_processors=100)
+sim.save('sims_irvin_converged_kochen_original_ic.h5')
